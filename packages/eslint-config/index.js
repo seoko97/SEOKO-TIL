@@ -1,0 +1,16 @@
+/** @type {import("eslint").Linter.BaseConfig} */
+module.exports = {
+	root: true,
+	env: {
+		es2021: true,
+		node: true,
+	},
+	extends: ['eslint:recommended', 'plugin:@typescript-eslint/recommended', 'prettier', 'turbo'],
+	parser: '@typescript-eslint/parser',
+	parserOptions: {
+		ecmaVersion: 'latest',
+		sourceType: 'module',
+	},
+	plugins: ['@typescript-eslint'],
+	rules: {},
+};
