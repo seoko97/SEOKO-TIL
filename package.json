@@ -1,22 +1,23 @@
 {
-	"name": "today-i-learning",
-	"private": true,
-	"scripts": {
-		"build": "turbo run build",
-		"dev": "turbo run dev",
-		"lint": "turbo run lint",
-		"format": "prettier --write \"**/*.{ts,tsx,md}\""
-	},
-	"devDependencies": {
-		"@seoko/eslint-config": "workspace:*",
-		"@turbo/gen": "^1.9.7",
-		"eslint": "^7.32.0",
-		"prettier": "^2.5.1",
-		"turbo": "^1.9.7"
-	},
-	"workspaces": [
-		"app",
-		"packages/*"
-	],
-	"packageManager": "yarn@3.5.1"
+  "name": "today-i-learning",
+  "private": true,
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev",
+    "lint": "turbo run lint",
+    "format": "prettier --write \"**/*.{ts,tsx,md}\""
+  },
+  "devDependencies": {
+    "@seoko/eslint-config": "workspace:*",
+    "eslint": "^8.41.0",
+    "prettier": "^2.8.8",
+    "turbo": "^1.9.7",
+    "typescript": "^5.0.4"
+  },
+  "workspaces": [
+    "app",
+    "algorithm",
+    "packages/*"
+  ],
+  "packageManager": "yarn@3.5.1"
 }
