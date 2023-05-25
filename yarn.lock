@@ -380,7 +380,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.20.7":
+"@babel/runtime@npm:^7.12.5, @babel/runtime@npm:^7.20.7, @babel/runtime@npm:^7.21.0":
   version: 7.21.5
   resolution: "@babel/runtime@npm:7.21.5"
   dependencies:
@@ -638,6 +638,22 @@ __metadata:
   version: 8.41.0
   resolution: "@eslint/js@npm:8.41.0"
   checksum: af013d70fe8d0429cdf5cd8b5dcc6fc384ed026c1eccb0cfe30f5849b968ab91645111373fd1b83282b38955b1bdfbe667c1a7dbda3b06cae753521223cad775
+  languageName: node
+  linkType: hard
+
+"@floating-ui/core@npm:^1.2.6":
+  version: 1.2.6
+  resolution: "@floating-ui/core@npm:1.2.6"
+  checksum: e4aa96c435277f1720d4bc939e17a79b1e1eebd589c20b622d3c646a5273590ff889b8c6e126f7be61873cf8c4d7db7d418895986ea19b8b0d0530de32504c3a
+  languageName: node
+  linkType: hard
+
+"@floating-ui/dom@npm:^1.0.0":
+  version: 1.2.8
+  resolution: "@floating-ui/dom@npm:1.2.8"
+  dependencies:
+    "@floating-ui/core": ^1.2.6
+  checksum: 02894774475a17baa498c86cd25d2825598e7de0734b8c08f7b8797b19c0bec13c4c726e529feb8bf26c6dee219c153ac1f90d8530a93534f765b3c04cfa3b4a
   languageName: node
   linkType: hard
 
@@ -1335,6 +1351,32 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@seoko/app@workspace:app":
+  version: 0.0.0-use.local
+  resolution: "@seoko/app@workspace:app"
+  dependencies:
+    "@heroicons/react": ^2.0.18
+    "@seoko/eslint-config": "workspace:*"
+    "@seoko/tsconfig": "workspace:*"
+    "@types/node": 18.11.10
+    "@types/react": 18.2.6
+    autoprefixer: ^10.4.14
+    eslint: ^8.41.0
+    next: ^13.0.6
+    nextra: latest
+    nextra-theme-docs: latest
+    postcss: ^8.4.23
+    prettier: ^2.8.8
+    prettier-plugin-tailwindcss: ^0.3.0
+    react: ^18.2.0
+    react-activity-calendar: ^2.0.2
+    react-dom: ^18.2.0
+    react-tooltip: ^5.13.1
+    tailwindcss: ^3.3.2
+    typescript: ^4.9.3
+  languageName: unknown
+  linkType: soft
+
 "@seoko/archive@workspace:packages/archive":
   version: 0.0.0-use.local
   resolution: "@seoko/archive@workspace:packages/archive"
@@ -1529,6 +1571,13 @@ __metadata:
   dependencies:
     "@babel/types": ^7.3.0
   checksum: b9e7f39eb84626cc8f83ebf75a621d47f04b53cb085a3ea738a9633d57cf65208e503b1830db91aa5e297bc2ba761681ac0b0cbfb7a3d56afcfb2296212668ef
+  languageName: node
+  linkType: hard
+
+"@types/chroma-js@npm:^2.4.0":
+  version: 2.4.0
+  resolution: "@types/chroma-js@npm:2.4.0"
+  checksum: aa91adf61a5dee8469c1e6b298d3496041d1baa8bd9938865a61050b5e392adc3425718c7c29b09a3d8dfe0d2e8a1301e98d4b458135e53c2ecb3ecca8cb7d21
   languageName: node
   linkType: hard
 
@@ -2717,6 +2766,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"chroma-js@npm:^2.4.0":
+  version: 2.4.2
+  resolution: "chroma-js@npm:2.4.2"
+  checksum: cf9884c02d406286e4370599bcd1afbf089384407df46b3a69edfedcba7bb99e8f959a5cfdbfec750b305c441c06ca40cd1f70ba3a6c2ce739ac09a92520ddae
+  languageName: node
+  linkType: hard
+
 "ci-info@npm:^3.2.0":
   version: 3.8.0
   resolution: "ci-info@npm:3.8.0"
@@ -2728,6 +2784,13 @@ __metadata:
   version: 1.2.2
   resolution: "cjs-module-lexer@npm:1.2.2"
   checksum: 977f3f042bd4f08e368c890d91eecfbc4f91da0bc009a3c557bc4dfbf32022ad1141244ac1178d44de70fc9f3dea7add7cd9a658a34b9fae98a55d8f92331ce5
+  languageName: node
+  linkType: hard
+
+"classnames@npm:^2.3.0":
+  version: 2.3.2
+  resolution: "classnames@npm:2.3.2"
+  checksum: 2c62199789618d95545c872787137262e741f9db13328e216b093eea91c85ef2bfb152c1f9e63027204e2559a006a92eb74147d46c800a9f96297ae1d9f96f4e
   languageName: node
   linkType: hard
 
@@ -2987,6 +3050,15 @@ __metadata:
   version: 1.0.8
   resolution: "damerau-levenshtein@npm:1.0.8"
   checksum: d240b7757544460ae0586a341a53110ab0a61126570ef2d8c731e3eab3f0cb6e488e2609e6a69b46727635de49be20b071688698744417ff1b6c1d7ccd03e0de
+  languageName: node
+  linkType: hard
+
+"date-fns@npm:^2.30.0":
+  version: 2.30.0
+  resolution: "date-fns@npm:2.30.0"
+  dependencies:
+    "@babel/runtime": ^7.21.0
+  checksum: f7be01523282e9bb06c0cd2693d34f245247a29098527d4420628966a2d9aad154bd0e90a6b1cf66d37adcb769cd108cf8a7bd49d76db0fb119af5cdd13644f4
   languageName: node
   linkType: hard
 
@@ -7375,30 +7447,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nextra-docs-template@workspace:app":
-  version: 0.0.0-use.local
-  resolution: "nextra-docs-template@workspace:app"
-  dependencies:
-    "@heroicons/react": ^2.0.18
-    "@seoko/eslint-config": "workspace:*"
-    "@seoko/tsconfig": "workspace:*"
-    "@types/node": 18.11.10
-    "@types/react": 18.2.6
-    autoprefixer: ^10.4.14
-    eslint: ^8.41.0
-    next: ^13.0.6
-    nextra: latest
-    nextra-theme-docs: latest
-    postcss: ^8.4.23
-    prettier: ^2.8.8
-    prettier-plugin-tailwindcss: ^0.3.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    tailwindcss: ^3.3.2
-    typescript: ^4.9.3
-  languageName: unknown
-  linkType: soft
-
 "nextra-theme-docs@npm:latest":
   version: 2.6.0
   resolution: "nextra-theme-docs@npm:2.6.0"
@@ -8313,6 +8361,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"react-activity-calendar@npm:^2.0.2":
+  version: 2.0.2
+  resolution: "react-activity-calendar@npm:2.0.2"
+  dependencies:
+    "@types/chroma-js": ^2.4.0
+    chroma-js: ^2.4.0
+    date-fns: ^2.30.0
+  peerDependencies:
+    react: ^17.0.0 || ^18.0.0
+    react-dom: ^17.0.0 || ^18.0.0
+  checksum: 7745cfe014c10f03b8993aed762983ab7a337a6cceb1adcb2f1d931a995ece6bf68845be6c46d2cbf12f5e60d7f8720dcceb88d851e333a16ea5e5f2e26c5fbe
+  languageName: node
+  linkType: hard
+
 "react-dom@npm:^18.2.0":
   version: 18.2.0
   resolution: "react-dom@npm:18.2.0"
@@ -8336,6 +8398,19 @@ __metadata:
   version: 18.2.0
   resolution: "react-is@npm:18.2.0"
   checksum: e72d0ba81b5922759e4aff17e0252bd29988f9642ed817f56b25a3e217e13eea8a7f2322af99a06edb779da12d5d636e9fda473d620df9a3da0df2a74141d53e
+  languageName: node
+  linkType: hard
+
+"react-tooltip@npm:^5.13.1":
+  version: 5.13.1
+  resolution: "react-tooltip@npm:5.13.1"
+  dependencies:
+    "@floating-ui/dom": ^1.0.0
+    classnames: ^2.3.0
+  peerDependencies:
+    react: ">=16.14.0"
+    react-dom: ">=16.14.0"
+  checksum: b00e9e43c7491f47860cceabd0412caa69ca34b89409733c15568f4833291bb43972f3ebcaa036757c2a4673e8c7a533111233078a5603e5c88b9ceb3795b2a1
   languageName: node
   linkType: hard
 
